@@ -33,7 +33,7 @@ const Footer = () => {
               <div className="left">
                 <p>
                   Designed by Suave Tech Solutions LLC
-                  © {new Date().getYear()}
+                  © {1900 + new Date().getYear()}
                 </p>
               </div>
               <div className="right">
