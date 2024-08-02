@@ -34,7 +34,7 @@ const Testimonial = () => {
               <SwiperSlide className="item">
                 <div className="text">
                   <p>
-                  "Guerrilla Automotive tunes all my cars, and I have to say, these things run fast! Finally, I'm bustin\' down opps on these streets. Thanks, Guerrilla Automotive!"
+                  "Guerrilla Automotive tunes all my cars, and I have to say, these things run fast! Finally, I'm bustin' down the opps on these streets. Thanks, Guerrilla Automotive!"
                   </p>
                 </div>
                 <div className="name">
