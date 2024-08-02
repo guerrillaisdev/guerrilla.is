@@ -52,7 +52,7 @@ const Contact = () => {
                   <div className="list_inner">
                     {call}
                     <span>Call me</span>
-                    <h3>123 456 7890</h3>
+                    <h3><a href="tel:+1-737-747-2233">+1-737-747-2233</a></h3>
                   </div>
                 </li>
                 <li>
