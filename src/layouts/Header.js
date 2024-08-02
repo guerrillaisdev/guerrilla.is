@@ -13,7 +13,7 @@ const Header = ({ dark }) => {
         <div className="inner">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/guerrilla-min.jpg" alt="" height="120" width="120" />
+              <img src="img/logo/guerrilla-min.jpg" alt="" height="80" width="80" />
             </a>
           </div>
 
