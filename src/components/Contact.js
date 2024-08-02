@@ -36,13 +36,13 @@ const Contact = () => {
             data-color="dark"
           >
             <span>Get in Touch</span>
-            <h3>Connect with Me with Confidence</h3>
+            <h3>Connect Us with Confidence</h3>
           </div>
           <div className="contact_inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <div className="text">
                 <p>
-                  Please fill out the form on this section to contact with me.
+                  Please fill out the form on this section to contact us.
                   Or call between 9:00 a.m. and 8:00 p.m. EST, Monday through
                   Friday
                 </p>

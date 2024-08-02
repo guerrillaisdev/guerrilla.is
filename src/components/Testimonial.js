@@ -34,12 +34,12 @@ const Testimonial = () => {
               <SwiperSlide className="item">
                 <div className="text">
                   <p>
-                  "I've been taking my car to Guerrilla Automotives for years now, and I can't recommend them enough. The mechanics are highly skilled and always provide honest advice. My car has never run better!"
+                  "Guerrilla Automotive tunes all my cars, and I have to say, these things run fast! Finally, I'm bustin\' down opps on these streets. Thanks, Guerrilla Automotive!"
                   </p>
                 </div>
                 <div className="name">
                   <h3>
-                    David Finch, <span>Customer</span>
+                    Sicflo, <span>Customer</span>
                   </h3>
                 </div>
               </SwiperSlide>
