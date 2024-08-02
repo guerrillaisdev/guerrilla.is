@@ -59,7 +59,7 @@ const Portfolio = () => {
             data-color="light"
           >
             <span>Selected works</span>
-            <h3>Check my portfolio</h3>
+            <h3>Portfolio</h3>
           </div>
           <div className="portfolio_filter">
             <ul>

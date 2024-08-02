@@ -39,10 +39,10 @@ const Service = ({ dark }) => {
                     data-text-align="left"
                     data-color="dark"
                   >
-                    <span>What I Do</span>
-                    <h3>My Services</h3>
+                    <span>What We Do</span>
+                    <h3>Services</h3>
                     <p>
-                      Guerrilla Automotive offers high-quality performance ECU remaps(chip tuning) for cars, bikes, trucks, agriculture, and  marine vehicles. We also provide detailing and car repairs.
+                      Guerrilla Automotive offers high-quality performance ECU remaps (chip tuning) for cars, bikes, trucks, agriculture, and  marine vehicles. We also provide detailing and car repairs.
                     </p>
                   </div>
                 </div>
