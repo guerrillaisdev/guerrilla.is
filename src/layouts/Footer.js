@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="bottom">
               <div className="left">
                 <p>
-                  Designed by Yoyobojo
+                  Designed by Suave Tech Solutions LLC
                   © {new Date().getYear()}
                 </p>
               </div>
