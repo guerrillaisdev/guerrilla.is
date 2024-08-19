@@ -1,6 +1,9 @@
 import { useState } from "react";
+import useSearch from "../hooks/UseSearch";
+import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 
 const MobileMenu = () => {
+  const search = useSearch();
   const [toggle, setToggle] = useState(false);
   return (
     <div className="Guerrilla_tm_mobile_menu">
@@ -11,6 +14,30 @@ const MobileMenu = () => {
               <img src="img/logo/guerrilla-min.jpg" alt="Guerrilla image" />
             </a>
           </div>
+
+          <div style={{ width: "100%", margin: "0 2rem" }}>
+          <ReactSearchAutocomplete
+            {...search}
+            autoFocus
+            placeholder="Search our tunes"
+            styling={{
+              height: "48px",
+              border: "1px solid gray",
+              borderRadius: "4px",
+              backgroundColor: "white",
+              boxShadow: "none",
+              hoverBackgroundColor: "#f2f2f2",
+              color: "black",
+              fontSize: "12px",
+              iconColor: "black",
+              lineColor: "black",
+              placeholderColor: "gray",
+              // clearIconMargin: "3px 8px 0 0",
+              zIndex: 2,
+            }}
+          />
+          </div>
+
           <div className="trigger">
             <div
               className={`hamburger hamburger--slider ${
@@ -40,21 +67,21 @@ const MobileMenu = () => {
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a onClick={() => setToggle(false)} href="#portfolio">
                 Portfolio
               </a>
-            </li>
+            </li> */}
             <li>
               <a onClick={() => setToggle(false)} href="#service">
                 Service
               </a>
             </li>
-            <li>
+            {/* <li>
               <a onClick={() => setToggle(false)} href="#testimonial">
                 Testimonial
               </a>
-            </li>
+            </li> */}
             <li>
               <a onClick={() => setToggle(false)} href="#contact">
                 Contact
